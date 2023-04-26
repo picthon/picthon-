@@ -131,6 +131,8 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
             username = 'vip'+username
+        else:
+            pass
     if choice == "7":
         c = random.choices(a)
         d = random.choices(b)
@@ -147,6 +149,8 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
             username = username+'bot'
+        else:
+            Pass
     if choice == "8":
         c = random.choices(a)
         d = random.choices(b)
