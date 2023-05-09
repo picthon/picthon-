@@ -576,7 +576,7 @@ async def _(event):
 ☆ التاريخ : `{m9zpi}`
 ☆ الايدي : `{event.sender_id}`
 ☆ المطور : @a_t_9
-☆ TNT Source : @picth0n**
+☆ PICTHON Source : @picth0n**
 ''')
 
 
