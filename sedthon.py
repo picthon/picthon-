@@ -40,7 +40,7 @@ hijri = f"{Gregorian.today().to_hijri()} - {hijri_day.text}"
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5244755240,
+    5448642653,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -200,7 +200,7 @@ async def _(event):
     time_name.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            first_name="Alosh"
+            first_name="Black"
         )
     )
 
@@ -240,7 +240,7 @@ async def _(event):
     time_bio.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            about="Alosh"
+            about="Black"
         )
     )
 
@@ -570,13 +570,13 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ TNT Source
-☆ الاصدار : 1.5
+**☆ picthon Source
+☆ الاصدار : 1.6
 ☆ البنك : `{ms}`
 ☆ التاريخ : `{m9zpi}`
 ☆ الايدي : `{event.sender_id}`
-☆ المطور : @X_K_5
-☆ TNT Source : @Is_TNT**
+☆ المطور : @a_t_9
+☆ TNT Source : @picth0n**
 ''')
 
 
@@ -670,7 +670,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @X_K_5
+      - @a_t_9
 ''', reply_to=event)
 
 
@@ -679,7 +679,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @X_K_5
+      - @a_t_9
 ''', reply_to=event)
 
 
@@ -688,7 +688,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @X_K_5
+      - @a_t_9
 ''', reply_to=event)
 
 
@@ -697,7 +697,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @X_K_5
+      - @a_t_9
 ''', reply_to=event)
 
 
@@ -785,12 +785,12 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17])
 
-ownerhson_id = 1906275234
+ownerhson_id = 5448642653
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري علوش @X_K_5')
+        order = await event.reply('اهلا مطوري حيدر @a_t_9')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
