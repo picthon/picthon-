@@ -1,14 +1,15 @@
 {
-    "name": "TNT",
+    "name": "picthon",
     "description": " اهلا بكم في تنصيب سورس صيد اليوزرات !",
+   "logo": " https://i.postimg.cc/qqWcjXzG/20230507044740643.jpg ",
     "stack": "container",
-    "repository": "https://github.com/haahjwjq/fidiwub",
+    "repository": "https://github.com/picthon/picthon-",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "https://github./haahjwjq/fidiwub",
+    "website": "https://github.com/picthon/picthon-",
     "env": {
         "APP_ID": {
             "description": "ايبي ايدي",
