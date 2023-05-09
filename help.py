@@ -7,10 +7,10 @@ commands = '''
 '''
 soursce = '''
 `- -- -- -- -- -- -- -- --`
-**Alqaed source is working ⚡
-Dev : Alosh
-Dev : @X_K_5
-Source Ch : @Is_TNT**
+**Picthon source is working ⚡
+Dev : Black 
+Dev : @a_t_9
+Source Ch : @picth0n**
 `-- -- -- -- -- -- -- -- --`
 '''
 trans = '''
@@ -119,7 +119,7 @@ tele_checker = '''
 '''
 tele_checker2 = '''
 الانواع :
-1 : ثلاثي احرف فقط @H_K_F 
+1 : ثلاثي احرف فقط @a_t_9 
 2 : ثلاثي عام 
 3 : خماسي اختلاف حرفين مثال dddss
 4 : خماسي اختلاف حرفين مثال ddsds
@@ -127,11 +127,11 @@ tele_checker2 = '''
 6 : صيد vip مثال vip123
 7 : صيد بوت ثلاثي مثال serbop
 8 : صيد بوت شبه ثنائي  s_rbot 
-مثال : .صيد 50000000 2 @Is_TnT
+مثال : .صيد 50000000 2 @picth0n
 
-☆ TNT : @X_K_5
+☆ picthon : @a_t_9
 '''
-t06bot = '''
+zmmbot = '''
 `-- -- -- -- -- -- -- -- --`**
 ✰` .تجميع المليار ` : يشترك ب قنوات بوت المليار تلقائي
 **`-- -- -- -- -- -- -- -- --`
