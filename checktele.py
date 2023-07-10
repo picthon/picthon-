@@ -15,6 +15,7 @@ from threading import Thread
 a = 'qwertyuiopassdfghjklzxcvbnm'
 b = '1234567890'
 e = 'qwertyuiopassdfghjklzxcvbnm1234567890'
+k = 'vip'
 
 banned = []
 isclaim = ["off"]
@@ -156,6 +157,18 @@ def gen_user(choice):
             random.shuffle(f)
             username = ''.join(f)
             username = username+'bot'
+    if choice == "9":
+        c = d = random.choices(k)
+        d = random.choices(b)
+        f = [c[0], d[0]]
+        random.shuffle(f)
+        username = ''.join(f)
+        if username in banned[0]:
+            c = d = random.choices(a)
+            d = random.choices(b)
+            f = [c[0], d[0]]
+            random.shuffle(f)
+            username = ''.join(f)
         else:
             pass
     return username
